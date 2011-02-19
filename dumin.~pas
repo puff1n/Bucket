@@ -1,0 +1,15 @@
+unit dumin;
+
+interface
+uses sqlGenerate;
+procedure ProgramExit;
+implementation
+
+
+
+
+procedure ProgramExit;
+begin
+close();
+end;
+end.
