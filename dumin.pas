@@ -12,6 +12,6 @@ implementation
 
 procedure PavelDuminSuperProcedure;
 begin
-ShowMessage('Hello!');
+ShowMessage('Hello again!');
 end;
 end.

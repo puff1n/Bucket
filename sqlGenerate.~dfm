@@ -144,7 +144,7 @@ object Form1: TForm1
         Top = 4
         Width = 833
         Height = 501
-        ActivePage = QueryPlanTab
+        ActivePage = SQLTab
         MultiLine = True
         TabOrder = 0
         object SQLTab: TTabSheet

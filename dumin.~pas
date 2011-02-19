@@ -1,15 +1,17 @@
 unit dumin;
 
 interface
-uses sqlGenerate;
-procedure ProgramExit;
+uses
+  Windows, Messages, SysUtils, Variants, Classes, Graphics, Controls, Forms,
+  Dialogs, StdCtrls, CheckLst, ArrayS, ToolWin, ComCtrls, XPMan, ActnMan,
+  ActnCtrls, ActnMenus, Menus, Grids, ValEdit, sqlGenerate;
+
+  procedure PavelDuminSuperProcedure;
 implementation
 
 
-
-
-procedure ProgramExit;
+procedure PavelDuminSuperProcedure;
 begin
-close();
+ShowMessage('Hello again!');
 end;
 end.

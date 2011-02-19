@@ -177,7 +177,7 @@ var
 
 implementation
 
-uses dumin;
+uses dumin, abramov;
 
 {$R *.dfm}
 
